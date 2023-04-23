@@ -17,7 +17,7 @@ class Linear implements Root {
    @Override
    public void computeRoots() {
       double x = -b/a;
-      System.out.println("Root: " + x);
+      System.out.println("Корінь: " + x);
    }
 
    @Override
@@ -43,11 +43,11 @@ class Square implements Root {
          System.out.println("Немає коренів.");
       } else if (delta == 0) {
          double x = -b / (2 * a);
-         System.out.println("Root: " + x);
+         System.out.println("Корінь: " + x);
       } else {
          double x1 = (-b + Math.sqrt(delta)) / (2 * a);
          double x2 = (-b - Math.sqrt(delta)) / (2 * a);
-         System.out.println("Roots: " + x1 + ", " + x2);
+         System.out.println("Корінь: " + x1 + ", " + x2);
       }
    }
 
