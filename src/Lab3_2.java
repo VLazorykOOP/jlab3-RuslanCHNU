@@ -76,7 +76,7 @@ class Square extends Root {
     }
 }
 
-public class Main {
+public class Lab3_2 {
     public static void main(String[] args) {
         Root[] equations = new Root[2];
         equations[0] = new Linear(2, 3);
