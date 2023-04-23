@@ -22,7 +22,7 @@ class Linear implements Root {
 
    @Override
    public void printRoots() {
-      System.out.println("Linear equation roots:");
+      System.out.println("Корені лінійного рівняння:");
       computeRoots();
    }
 }
@@ -40,7 +40,7 @@ class Square implements Root {
    public void computeRoots() {
       double delta = b * b - 4 * a * c;
       if (delta < 0) {
-         System.out.println("No real roots.");
+         System.out.println("Немає коренів.");
       } else if (delta == 0) {
          double x = -b / (2 * a);
          System.out.println("Root: " + x);
@@ -53,7 +53,7 @@ class Square implements Root {
 
    @Override
    public void printRoots() {
-      System.out.println("Quadratic equation roots:");
+      System.out.println("Корені квадратного рівняння:");
       computeRoots();
    }
 }
